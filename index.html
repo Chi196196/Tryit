@@ -1,24 +1,18 @@
+
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>我的 GitHub 網站</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>互動示範</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <h1>歡迎來到我的網站！</h1>
-
-  <img src="assets/image.png" alt="示意圖片" width="300" />
-
-  <p>這是一段測試音樂：</p>
-  <audio controls>
-    <source src="assets/audio.mp3" type="audio/mpeg" />
-    您的瀏覽器不支援音訊播放。
-  </audio>
-
-  <button onclick="sayHello()">點我說哈囉</button>
-
+  <div class="container">
+    <h1>歡迎來到我的網站</h1>
+    <p>這是一個互動示範頁面</p>
+    <button id="showDialog">點擊我</button>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
